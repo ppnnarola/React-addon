@@ -1,0 +1,29 @@
+{
+  "name": "React Add-On",
+  "description": "Atlassian Connect app",
+  "key": "com.example.myapp",
+  "vendor": {
+    "name": "Example, Inc.",
+    "url": "http://example.com"
+  },
+  "baseUrl": "https://swift-dragonfly-42.loca.lt",
+  "authentication": {
+    "type": "none"
+  },
+  "apiVersion": 1,
+  "modules": {
+    "generalPages": [
+      {
+        "key": "my-addon-page-name",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "React-Jira"
+        },
+        "url": "/"
+      }
+    ]
+  },
+  "links": {
+    "config": "undefined/atlassian-connect.json"
+  }
+}
