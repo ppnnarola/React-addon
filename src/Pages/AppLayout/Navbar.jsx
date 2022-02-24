@@ -25,6 +25,7 @@ function Navbar(props) {
     });
   };
 
+  console.log("test");
   return (
     <Page
       navigationWidth={304}
