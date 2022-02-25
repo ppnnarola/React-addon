@@ -3,11 +3,13 @@ import { JiraIcon, AtlassianIcon } from "@atlaskit/logo";
 import Page from "@atlaskit/page";
 import DashboardIcon from "@atlaskit/icon/glyph/dashboard";
 import GearIcon from "@atlaskit/icon/glyph/settings";
+import UserAvatarCircleIcon from "@atlaskit/icon/glyph/user-avatar-circle";
 import Nav, { AkContainerTitle, AkNavigationItem } from "@atlaskit/navigation";
 import { NavLink } from "react-router-dom";
 
 const navLinks = [
   ["/home", "Home", DashboardIcon],
+  ["/profile", "My Profile", UserAvatarCircleIcon],
   ["/setting", "Settings", GearIcon],
 ];
 

@@ -11,6 +11,7 @@ import Header from "./Pages/AppLayout/Header";
 import Login from "./Pages/AuthPages/Login";
 import Dashboard from "./Pages/Dashboard";
 import SettingComponent from "./Pages/SettingComponent";
+import ProfileComponent from "./Pages/ProfileComponent";
 
 export const MainRoutes = () => {
   useEffect(() => {}, []);
@@ -22,6 +23,7 @@ export const MainRoutes = () => {
             <Route exact path="/" element={<Navigate to="/home" replace />} />
             <Route exact path="/home" element={<Dashboard />} />
             <Route exact path="/setting" element={<SettingComponent />} />
+            <Route exact path="/profile" element={<ProfileComponent />} />
           </Route>
           <Route exact path="/login" element={<Login />} />
         </Routes>
