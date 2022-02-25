@@ -6,7 +6,7 @@
     "name": "Example, Inc.",
     "url": "http://example.com"
   },
-  "baseUrl": "https://swift-dragonfly-42.loca.lt",
+  "baseUrl": "https://react-jira-addon.web.app",
   "authentication": {
     "type": "none"
   },
